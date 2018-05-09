@@ -136,7 +136,7 @@ public class RegisterActivity2 extends AppCompatActivity {
 
         // NFC Foreground
         if (Build.VERSION.SDK_INT >= 10) {
-            disableForegroundDespatch(this);
+            disableForegroundDispatch(this);
         }
     }
 
@@ -153,7 +153,7 @@ public class RegisterActivity2 extends AppCompatActivity {
         }
     }
 
-    public void disableForegroundDespatch(Activity activity) {
+    public void disableForegroundDispatch(Activity activity) {
         if (Build.VERSION.SDK_INT >= 10) {
             if (mAdapter != null && mAdapter.isEnabled()) {
                 mAdapter.disableForegroundDispatch(activity);

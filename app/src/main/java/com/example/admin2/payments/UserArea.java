@@ -32,6 +32,8 @@ public class UserArea extends AppCompatActivity {
         etUsername.setText(username);
         etBalance.setText(balance + "");
 
+        //what happens when I click pay
+
         charge.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){
