@@ -8,6 +8,7 @@ import android.content.IntentFilter;
 import android.nfc.NfcAdapter;
 import android.nfc.Tag;
 import android.nfc.tech.MifareClassic;
+import android.nfc.tech.MifareUltralight;
 import android.nfc.tech.NdefFormatable;
 import android.nfc.tech.NfcA;
 import android.os.Build;
@@ -18,6 +19,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.android.volley.RequestQueue;
 import com.android.volley.Response;
@@ -57,7 +59,9 @@ public class RegisterActivity2 extends AppCompatActivity {
             }
             intentFiltersArray = new IntentFilter[]{ndef};
 
-            techListsArray = new String[][]{new String[]{MifareClassic.class.getName(), NfcA.class.getName(), NdefFormatable.class.getName()}};
+            //MifareUltralight.class.getName() ,
+
+            techListsArray = new String[][]{new String[]{MifareClassic.class.getName(),NfcA.class.getName(), NdefFormatable.class.getName()}};
         }
 
         final Intent registerIntent = getIntent();
@@ -178,6 +182,9 @@ public class RegisterActivity2 extends AppCompatActivity {
             String TagUID = Util.ConvertbyteArrayToHexString(tag.getId());
 
             ReaderID.setText(TagUID);
+
+            Toast.makeText(getApplicationContext(), TagUID,
+                    Toast.LENGTH_LONG).show();
 
         }
     }
