@@ -1,30 +1,28 @@
 <?php
-     
+
+
+    //gets information from app
     $sender = $_POST["sender"];
     $receiver = $_POST["receiver"];
     $amount = $_POST["amount"];
 	
-		
+	
+	//ensures these parameters are available throughout codebase
 	global $amount;
 	global $senderBalance;
 	global $sender;
 	global $receiver;
 	
 	//global $amount, $senderBalance,$sender;
-	
-	$servername = "localhost";
-	$username = "root";
-	$password = "";
-	$dbname = "tutorial2";
 
 	// Create connection
-	$conn = new mysqli($servername, $username, $password, $dbname);
+	$con = mysqli_connect("localhost", "id4416034_sisekelo", "12345678", "id4416034_nfctrial");
 	// Check connection
 	if ($conn->connect_error) {
 		die("Connection failed: " . $conn->connect_error);
 	};
 	
-	$search = "SELECT balance FROM companyregister where username='$receiver'"; //check if receiver exists
+	$search = "SELECT balance FROM companyregister where username='$receiver'"; //check if receiver exists //what about sender?
 	$answer = $conn->query($search);
 	
 	if ($answer->num_rows != 1) {
@@ -56,9 +54,9 @@
 					
 					else{
 						
-						$con = mysqli_connect("localhost", "root", "", "tutorial2");
+						    $con = mysqli_connect("localhost", "id4416034_sisekelo", "12345678", "id4416034_nfctrial");
 						
-						$statement = mysqli_prepare($con, "INSERT INTO transactions (sender, receiver, amount) VALUES (?, ?, ?)");
+						$statement = mysqli_prepare($con, "INSERT INTO transactions (Sender, Receiver, Amount) VALUES (?, ?, ?)");
 						mysqli_stmt_bind_param($statement, "ssi", $sender, $receiver, $amount);
 						mysqli_stmt_execute($statement);
 						

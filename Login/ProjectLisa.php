@@ -1,5 +1,8 @@
 <?php
 
+//this file basically adds up all the transactions of a user to return a balance
+//design might need to change
+
 global $sender,$receiver;
 
 CheckSender();
@@ -12,22 +15,19 @@ getInitialBalance2();
 
 	
 function CheckSender(){
+
+
 	
 		global  $sender, $sumSender, $sumReceiver;
 		
-		$servername = "localhost";
-		$username = "root";
-		$password = "";
-		$dbname = "tutorial2";
-
 		// Create connection
-		$conn = new mysqli($servername, $username, $password, $dbname);
+		$conn = mysqli_connect("localhost", "id4416034_sisekelo", "12345678", "id4416034_nfctrial");
 		// Check connection
 		if ($conn->connect_error) {
 			die("Connection failed: " . $conn->connect_error);
 		};
 		
-		$sql = "SELECT amount FROM transactions where sender='$sender'and id=(SELECT MAX(id) FROM `transactions`)"; //gets the last sent transaction by sender.
+		$sql = "SELECT amount FROM transactions where Sender='$sender'and id=(SELECT MAX(id) FROM `transactions`)"; //gets the last sent transaction by sender.
 		$result = $conn->query($sql);
 
 				if ($result->num_rows > 0) {
@@ -51,19 +51,14 @@ function CheckSenderAgain(){
 
 		global  $sender, $sumSender, $sumSender2;				
 						
-		$servername = "localhost";
-		$username = "root";
-		$password = "";
-		$dbname = "tutorial2";
-
 		// Create connection
-		$conn = new mysqli($servername, $username, $password, $dbname);
+		$conn = mysqli_connect("localhost", "id4416034_sisekelo", "12345678", "id4416034_nfctrial");
 		// Check connection
 		if ($conn->connect_error) {
 			die("Connection failed: " . $conn->connect_error);
 		};
 		
-		$sql = "SELECT amount FROM transactions where receiver='$sender'and id=(SELECT MAX(id) FROM `transactions`)"; //checks all transactions when sender has received
+		$sql = "SELECT amount FROM transactions where Receiver='$sender'and id=(SELECT MAX(id) FROM `transactions`)"; //checks all transactions when sender has received
 		$result = $conn->query($sql);
 
 				if ($result->num_rows > 0) {
@@ -84,20 +79,15 @@ function CheckSenderAgain(){
 
 function CheckReceiver(){
 		global  $receiver, $sumSender, $sumReceiver;
-		
-		$servername = "localhost";
-		$username = "root";
-		$password = "";
-		$dbname = "tutorial2";
 
 		// Create connection
-		$conn = new mysqli($servername, $username, $password, $dbname);
+		$conn = mysqli_connect("localhost", "id4416034_sisekelo", "12345678", "id4416034_nfctrial");
 		// Check connection
 		if ($conn->connect_error) {
 			die("Connection failed: " . $conn->connect_error);
 		};
 		
-		$sql = "SELECT amount FROM transactions where receiver='$receiver' and id=(SELECT MAX(id) FROM `transactions`)"; //check how much the receiver has received
+		$sql = "SELECT amount FROM transactions where Receiver='$receiver' and id=(SELECT MAX(id) FROM `transactions`)"; //check how much the receiver has received
 		$result = $conn->query($sql);
 
 				if ($result->num_rows > 0) {
@@ -153,14 +143,9 @@ function CheckReceiverAgain(){
 function getInitialBalance(){
 	 
 	global $sender, $initialBalance;
-	 
-	$servername = "localhost";
-	$username = "root";
-	$password = "";
-	$dbname = "tutorial2";
 
 	// Create connection
-	$conn = new mysqli($servername, $username, $password, $dbname);
+	$conn = mysqli_connect("localhost", "id4416034_sisekelo", "12345678", "id4416034_nfctrial");
 	// Check connection
 	if ($conn->connect_error) {
 		die("Connection failed: " . $conn->connect_error);
@@ -186,13 +171,8 @@ function getInitialBalance(){
 function getInitialBalance2(){
 	global $receiver, $initialBalance2;
 	 
-	$servername = "localhost";
-	$username = "root";
-	$password = "";
-	$dbname = "tutorial2";
-
 	// Create connection
-	$conn = new mysqli($servername, $username, $password, $dbname);
+	$conn = mysqli_connect("localhost", "id4416034_sisekelo", "12345678", "id4416034_nfctrial");
 	// Check connection
 	if ($conn->connect_error) {
 		die("Connection failed: " . $conn->connect_error);
@@ -223,14 +203,9 @@ global $senderBalance;
 
 function UpdateSender(){
 	global  $receiver, $sender, $senderBalance, $receiverBalance;
-		
-		$servername = "localhost";
-		$username = "root";
-		$password = "";
-		$dbname = "tutorial2";
 
 		// Create connection
-		$conn = new mysqli($servername, $username, $password, $dbname);
+		$conn = mysqli_connect("localhost", "id4416034_sisekelo", "12345678", "id4416034_nfctrial");
 		// Check connection
 		if ($conn->connect_error) {
 			die("Connection failed: " . $conn->connect_error);
@@ -253,14 +228,9 @@ global $receiverBalance;
 function UpdateReceiver(){
 	
 	global  $receiver, $sender, $senderBalance, $receiverBalance;
-		
-		$servername = "localhost";
-		$username = "root";
-		$password = "";
-		$dbname = "tutorial2";
 
 		// Create connection
-		$conn = new mysqli($servername, $username, $password, $dbname);
+			$conn = mysqli_connect("localhost", "id4416034_sisekelo", "12345678", "id4416034_nfctrial");
 		// Check connection
 		if ($conn->connect_error) {
 			die("Connection failed: " . $conn->connect_error);

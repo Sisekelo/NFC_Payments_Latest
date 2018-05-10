@@ -8,7 +8,6 @@ import android.content.IntentFilter;
 import android.nfc.NfcAdapter;
 import android.nfc.Tag;
 import android.nfc.tech.MifareClassic;
-import android.nfc.tech.MifareUltralight;
 import android.nfc.tech.NdefFormatable;
 import android.nfc.tech.NfcA;
 import android.os.Build;
@@ -28,7 +27,7 @@ import com.android.volley.toolbox.Volley;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-public class RegisterActivity2 extends AppCompatActivity {
+public class SendMoneyPage extends AppCompatActivity {
 
     private PendingIntent pendingIntent;
     private IntentFilter[] intentFiltersArray;
@@ -96,13 +95,13 @@ public class RegisterActivity2 extends AppCompatActivity {
 
                                 int balance = jsonResponse.getInt("balance");
 
-                                Intent intent = new Intent(RegisterActivity2.this, UserArea.class);
+                                Intent intent = new Intent(SendMoneyPage.this, UserArea.class);
                                 intent.putExtra("name", sender);
                                 intent.putExtra("balance", balance);
                                 intent.putExtra("username", username);
-                                RegisterActivity2.this.startActivity(intent);
+                                SendMoneyPage.this.startActivity(intent);
                             } else {
-                                AlertDialog.Builder builder = new AlertDialog.Builder(RegisterActivity2.this);
+                                AlertDialog.Builder builder = new AlertDialog.Builder(SendMoneyPage.this);
                                 builder.setMessage("Register Failed")
                                         .setNegativeButton("Retry", null)
                                         .create()
@@ -114,9 +113,9 @@ public class RegisterActivity2 extends AppCompatActivity {
                     }
                 };
 
-                RegisterRequest2 registerRequest2 = new RegisterRequest2(sender, receiver, amount,responseListener);
-                RequestQueue queue = Volley.newRequestQueue(RegisterActivity2.this);
-                queue.add(registerRequest2);
+                SendMoneyController sendMoneyController = new SendMoneyController(sender, receiver, amount,responseListener);
+                RequestQueue queue = Volley.newRequestQueue(SendMoneyPage.this);
+                queue.add(sendMoneyController);
 
     }
         }

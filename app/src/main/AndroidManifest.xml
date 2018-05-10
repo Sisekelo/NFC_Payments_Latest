@@ -12,7 +12,7 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".LoginActivity">
+        <activity android:name=".LoginPage">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -20,13 +20,13 @@
             </intent-filter>
 
         </activity>
-        <activity android:name=".RegisterActivity" />
+        <activity android:name=".RegisterPage" />
 
         <activity android:name=".UserArea">
 
         </activity>
 
-        <activity android:name=".RegisterActivity2" />
+        <activity android:name=".SendMoneyPage" />
         <activity android:name=".Transactions.UserArea2"></activity>
         <activity android:name=".Transactions.LoginActivity2" />
 

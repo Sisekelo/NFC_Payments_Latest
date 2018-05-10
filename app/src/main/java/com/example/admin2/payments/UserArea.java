@@ -40,7 +40,7 @@ public class UserArea extends AppCompatActivity {
 
                 //String sisekelo =username.toString();
 
-                Intent registerIntent = new Intent(UserArea.this,RegisterActivity2.class);
+                Intent registerIntent = new Intent(UserArea.this,SendMoneyPage.class);
                 registerIntent.putExtra("username", username);
                 Log.v("music", "this is "+ username);
                 UserArea.this.startActivity(registerIntent);

@@ -15,10 +15,8 @@ import com.android.volley.toolbox.Volley;
 
 import org.json.JSONException;
 import org.json.JSONObject;
-import org.w3c.dom.Text;
-import com.example.admin2.payments.UserArea;
 
-public class LoginActivity extends AppCompatActivity {
+public class LoginPage extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -33,8 +31,8 @@ public class LoginActivity extends AppCompatActivity {
         tvRegisterLink.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){
-                Intent registerIntent = new Intent(LoginActivity.this,RegisterActivity.class);
-                LoginActivity.this.startActivity(registerIntent);
+                Intent registerIntent = new Intent(LoginPage.this,RegisterPage.class);
+                LoginPage.this.startActivity(registerIntent);
             }
         });
 
@@ -56,13 +54,13 @@ public class LoginActivity extends AppCompatActivity {
                                 String name = jsonResponse.getString("name");
                                 int balance = jsonResponse.getInt("balance");
 
-                                Intent intent = new Intent(LoginActivity.this, UserArea.class);
+                                Intent intent = new Intent(LoginPage.this, UserArea.class);
                                 intent.putExtra("name", name);
                                 intent.putExtra("balance", balance);
                                 intent.putExtra("username", username);
-                                LoginActivity.this.startActivity(intent);
+                                LoginPage.this.startActivity(intent);
                             } else {
-                                AlertDialog.Builder builder = new AlertDialog.Builder(LoginActivity.this);
+                                AlertDialog.Builder builder = new AlertDialog.Builder(LoginPage.this);
                                 builder.setMessage("Login Failed")
                                         .setNegativeButton("Retry", null)
                                         .create()
@@ -75,9 +73,9 @@ public class LoginActivity extends AppCompatActivity {
                     }
                 };
 
-                LoginRequest loginRequest = new LoginRequest(username, password, responseListener);
-                RequestQueue queue = Volley.newRequestQueue(LoginActivity.this);
-                queue.add(loginRequest);
+                LoginController loginController = new LoginController(username, password, responseListener);
+                RequestQueue queue = Volley.newRequestQueue(LoginPage.this);
+                queue.add(loginController);
             }
         });
     }

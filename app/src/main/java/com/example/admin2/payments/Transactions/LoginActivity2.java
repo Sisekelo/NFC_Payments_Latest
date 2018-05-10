@@ -12,10 +12,9 @@ import android.widget.TextView;
 import com.android.volley.RequestQueue;
 import com.android.volley.Response;
 import com.android.volley.toolbox.Volley;
-import com.example.admin2.payments.LoginActivity;
-import com.example.admin2.payments.LoginRequest;
+import com.example.admin2.payments.LoginController;
 import com.example.admin2.payments.R;
-import com.example.admin2.payments.RegisterActivity;
+import com.example.admin2.payments.RegisterPage;
 import com.example.admin2.payments.UserArea;
 
 import org.json.JSONException;
@@ -46,7 +45,7 @@ public class LoginActivity2 extends AppCompatActivity {
         tvRegisterLink.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){
-                Intent registerIntent = new Intent(LoginActivity2.this,RegisterActivity.class);
+                Intent registerIntent = new Intent(LoginActivity2.this,RegisterPage.class);
                 LoginActivity2.this.startActivity(registerIntent);
             }
         });
@@ -90,9 +89,9 @@ public class LoginActivity2 extends AppCompatActivity {
                     }
                 };
 
-                LoginRequest loginRequest = new LoginRequest(sender, receiver, responseListener);
+                LoginController loginController = new LoginController(sender, receiver, responseListener);
                 RequestQueue queue = Volley.newRequestQueue(LoginActivity2.this);
-                queue.add(loginRequest);
+                queue.add(loginController);
             }
         });
     }

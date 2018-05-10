@@ -10,13 +10,13 @@ import com.android.volley.toolbox.StringRequest;
 import java.util.HashMap;
 import java.util.Map;
 
-public class RegisterRequest2 extends StringRequest {
+public class SendMoneyController extends StringRequest {
 
-    private static final String REGISTER_REQUEST_URL = "http://172.16.0.136/tutorial2/Login/transact.php";
+    private static final String REGISTER_REQUEST_URL = "https://truth101.000webhostapp.com/transact.php";
     private Map<String, String> params;
 
 
-         public RegisterRequest2(String sender, String receiver, int amount, Response.Listener<String> listener){
+         public SendMoneyController(String sender, String receiver, int amount, Response.Listener<String> listener){
             super(Method.POST, REGISTER_REQUEST_URL, listener, null);
             params = new HashMap<>();
             params.put("sender", sender);
