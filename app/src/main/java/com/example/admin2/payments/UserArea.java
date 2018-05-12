@@ -38,8 +38,6 @@ public class UserArea extends AppCompatActivity {
             @Override
             public void onClick(View v){
 
-                //String sisekelo =username.toString();
-
                 Intent registerIntent = new Intent(UserArea.this,SendMoneyPage.class);
                 registerIntent.putExtra("username", username);
                 Log.v("music", "this is "+ username);
