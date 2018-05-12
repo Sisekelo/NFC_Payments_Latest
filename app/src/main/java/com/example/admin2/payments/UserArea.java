@@ -58,6 +58,18 @@ public class UserArea extends AppCompatActivity {
             }
         });
 
+        //what happens when I click enter
+
+        enter.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+
+                Intent registerIntent = new Intent(UserArea.this,Enter.class);
+                //registerIntent.putExtra("username", username);
+                UserArea.this.startActivity(registerIntent);
+            }
+        });
+
 
 
     }
