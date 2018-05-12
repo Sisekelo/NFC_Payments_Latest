@@ -40,7 +40,7 @@ public class ReceiveMoneyPage extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_payment);
 
-        ReaderID = (TextView) findViewById(R.id.etUsername);
+        ReaderID = (TextView) findViewById(R.id.etCompanyName);
 
         getData(getIntent());
 
@@ -73,7 +73,7 @@ public class ReceiveMoneyPage extends AppCompatActivity {
 
 
 
-        etName.setText(username);
+        etUsername.setText(username);
         Log.v("checking", "this is "+ username);
 
         bRegister.setOnClickListener(new View.OnClickListener() {
@@ -93,10 +93,10 @@ public class ReceiveMoneyPage extends AppCompatActivity {
                             boolean success = jsonResponse.getBoolean("success");
                             if (success) {
 
-                                int balance = jsonResponse.getInt("balance");
+                                int balance = jsonResponse.getInt("balance2");
 
                                 Intent intent = new Intent(ReceiveMoneyPage.this, UserArea.class);
-                                intent.putExtra("name", sender);
+                                intent.putExtra("name", receiver);
                                 intent.putExtra("balance", balance);
                                 intent.putExtra("username", username);
                                 ReceiveMoneyPage.this.startActivity(intent);

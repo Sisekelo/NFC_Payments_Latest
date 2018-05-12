@@ -27,6 +27,7 @@
         </activity>
 
         <activity android:name=".SendMoneyPage" />
+        <activity android:name=".ReceiveMoneyPage" />
         <activity android:name=".Transactions.UserArea2"></activity>
         <activity android:name=".Transactions.LoginActivity2" />
 

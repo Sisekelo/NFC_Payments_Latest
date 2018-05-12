@@ -26,13 +26,15 @@ public class UserArea extends AppCompatActivity {
         final TextView tvWelcomeMsg = (TextView) findViewById(R.id.tvWelcomeMsg);
         final EditText etUsername = (EditText) findViewById(R.id.etUsername);
         final Button charge = (Button) findViewById(R.id.Chargebutton);
+        final Button receive = (Button) findViewById(R.id.Receivebutton);
+        final Button enter = (Button) findViewById(R.id.EnterButton);
 
         String  message = name + " welcome to your user area";
         tvWelcomeMsg.setText(message);
         etUsername.setText(username);
         etBalance.setText(balance + "");
 
-        //what happens when I click pay
+        //what happens when I click send
 
         charge.setOnClickListener(new View.OnClickListener(){
             @Override
@@ -40,7 +42,18 @@ public class UserArea extends AppCompatActivity {
 
                 Intent registerIntent = new Intent(UserArea.this,SendMoneyPage.class);
                 registerIntent.putExtra("username", username);
-                Log.v("music", "this is "+ username);
+                UserArea.this.startActivity(registerIntent);
+            }
+        });
+
+        //what happens when I click receive
+
+        receive.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+
+                Intent registerIntent = new Intent(UserArea.this,ReceiveMoneyPage.class);
+                registerIntent.putExtra("username", username);
                 UserArea.this.startActivity(registerIntent);
             }
         });
