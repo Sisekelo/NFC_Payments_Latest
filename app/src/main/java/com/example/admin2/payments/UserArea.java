@@ -47,6 +47,18 @@ public class UserArea extends AppCompatActivity {
             }
         });
 
+        //what happens when I click receive
+
+        charge.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+
+                Intent registerIntent = new Intent(UserArea.this,SendMoneyPage.class);
+                registerIntent.putExtra("username", username);
+                UserArea.this.startActivity(registerIntent);
+            }
+        });
+
         //what happens when I click enter
 
         enter.setOnClickListener(new View.OnClickListener(){
