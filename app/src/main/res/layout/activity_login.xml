@@ -1,56 +1,93 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#fff"
     tools:context=".LoginPage">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22dp"
+        app:srcCompat="@drawable/ic_logo2"
+        tools:ignore="VectorDrawableCompat"
+        android:contentDescription="TODO" />
+
 
     <EditText
         android:id="@+id/etUsername"
-        android:layout_width="wrap_content"
+        android:layout_width="250dp"
         android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
         android:ems="10"
-        android:hint="Username"
-        tools:ignore="HardcodedText,RtlHardcoded" />
+        android:fontFamily="sans-serif"
+        android:hint="username"
+        android:lineSpacingExtra="8sp"
+        android:textColor="#de000000"
+        android:textSize="16sp"
+        android:textStyle="normal"
+        tools:ignore="HardcodedText,RtlHardcoded"
+        android:inputType="" />
 
     <EditText
         android:id="@+id/etPassword"
-        android:layout_width="wrap_content"
+        android:layout_width="250dp"
         android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentStart="true"
-        android:layout_below="@+id/etUsername"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="202dp"
         android:ems="10"
-        android:hint="Password"
+        android:fontFamily="sans-serif"
+        android:hint="@string/password"
         android:inputType="numberPassword"
-        tools:ignore="HardcodedText,RtlHardcoded" />
+        android:lineSpacingExtra="8sp"
+        android:textColor="#de000000"
+        android:textSize="16sp"
+        android:textStyle="normal" />
 
     <Button
         android:id="@+id/bSignIn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentStart="true"
-        android:layout_below="@+id/etPassword"
+        android:layout_width="250dp"
+        android:layout_height="36dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="159dp"
+        android:background="@drawable/button_bg"
+        android:elevation="2dp"
         android:text="Sign In"
-        tools:ignore="HardcodedText,RtlHardcoded" />
+        tools:ignore="HardcodedText,RtlHardcoded"
+        android:textSize="14sp"
+        android:fontFamily="sans-serif-medium"
+        android:textStyle="normal"
+        android:textColor="#ffffff"
+        android:letterSpacing="0.04"
+        />
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Register Here"
         android:id="@+id/tvRegisterLink"
-        android:layout_below="@+id/bSignIn"
+        android:layout_width="221.5dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        tools:ignore="HardcodedText" />
+        android:layout_marginBottom="121dp"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center_horizontal"
+        android:letterSpacing="0.04"
+        android:text="Register Here"
+        android:textColor="#61000000"
+        android:textSize="14sp"
+        android:textStyle="normal"
+        tools:ignore="HardcodedText"
+        tools:text="Register" />
+
+
+
+
 </RelativeLayout>
