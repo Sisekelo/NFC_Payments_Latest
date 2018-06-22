@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id ="@+id/home"
+        android:title ="@string/home"
+        android:icon ="@drawable/ic_round_home_24px"
+        android:onClick ="">
+        <!--TODO: Add an onclick method-->
+    </item>
+    <item android:id ="@+id/send"
+        android:title ="@string/send"
+        android:icon ="@drawable/ic_round_home_24px"
+        android:onClick ="">
+        <!--TODO: Add an onclick method-->
+        <!--TODO: Add a drawable icon-->
+    </item>
+    <item android:id ="@+id/receive"
+        android:title ="@string/receive"
+        android:icon ="@drawable/ic_round_home_24px"
+        android:onClick ="">
+        <!--TODO: Add an onclick method-->
+        <!--TODO: Add a drawable icon-->
+    </item>
+    <item android:id ="@+id/enter"
+        android:title ="@string/enter"
+        android:icon ="@drawable/ic_round_home_24px"
+        android:onClick ="">
+        <!--TODO: Add an onclick method-->
+        <!--TODO: Add a drawable icon-->
+    </item>
+</menu>

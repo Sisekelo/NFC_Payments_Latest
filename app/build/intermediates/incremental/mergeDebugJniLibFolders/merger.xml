@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/home/morema/Projects/NFC_Material/app/src/main/jniLibs"/></dataSet><dataSet config="debug"><source path="/home/morema/Projects/NFC_Material/app/src/debug/jniLibs"/></dataSet></merger>

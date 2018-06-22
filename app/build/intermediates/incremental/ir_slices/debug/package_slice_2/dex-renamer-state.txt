@@ -1,0 +1,4 @@
+#Fri Jun 22 10:12:49 MUT 2018
+base.0=/home/morema/Projects/NFC_Material/app/build/intermediates/transforms/dexMerger/debug/3
+path.0=classes.dex
+renamed.0=classes.dex

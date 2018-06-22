@@ -1,0 +1,320 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/morema/Projects/NFC_Material/app/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /home/morema/Projects/NFC_Material/app/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /home/morema/Projects/NFC_Material/app/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /home/morema/Projects/NFC_Material/app/src/main/AndroidManifest.xml:2:1-23:12
+MERGED from [com.android.support:design:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/design-28.0.0-alpha1.aar/8964b38402bdb49b80401d450f58308d/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:support-v4:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/support-v4-28.0.0-alpha1.aar/e8600253ccc41c8a0b51c37646b9ebde/AndroidManifest.xml:17:1-23:12
+MERGED from [com.android.volley:volley:1.1.0] /home/morema/.gradle/caches/transforms-1/files-1.1/volley-1.1.0.aar/7f17e07158c6ce38348e1efdf526f97c/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:design-bottomappbar:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/design-bottomappbar-28.0.0-alpha1.aar/40fcbae125d7bbc528dce6e612e1b7d3/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:design-theme:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/design-theme-28.0.0-alpha1.aar/0036e75bb97b64c3f8aed0e118c0219d/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:design-transformation:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/design-transformation-28.0.0-alpha1.aar/b9daabe866aadd34d38acc419be0dcd4/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:design-widget:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/design-widget-28.0.0-alpha1.aar/1517bae30dc0f707eb267843e1ece3c7/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:design-bottomsheet:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/design-bottomsheet-28.0.0-alpha1.aar/a0a4d7dc56d1d78e8ca1b7226ea0735d/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:design-dialog:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/design-dialog-28.0.0-alpha1.aar/9c9a2dc7f98ddfd30080a86acf773f85/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:design-button:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/design-button-28.0.0-alpha1.aar/c6bab53ea21820c5bad8bcdbfca4d91d/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:design-card:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/design-card-28.0.0-alpha1.aar/7341bd094b02c0508eba7051be1e18e0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:design-chip:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/design-chip-28.0.0-alpha1.aar/f91e52d4ea86897bc5fe39c34103b08b/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:design-internal:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/design-internal-28.0.0-alpha1.aar/a7a6274a55e31c0316019a74533f6e9b/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:design-bottomnavigation:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/design-bottomnavigation-28.0.0-alpha1.aar/046df2643b9be42d000057ed0b740cd2/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:design-floatingactionbutton:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/design-floatingactionbutton-28.0.0-alpha1.aar/655ed451f35c5c17b85b0f1f75d7584d/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:design-navigation:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/design-navigation-28.0.0-alpha1.aar/233dcbf20ae8684506594e1a4f53ab30/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:design-resources:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/design-resources-28.0.0-alpha1.aar/60b370a792fe523a4e7b0f131b0f3675/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:design-tabs:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/design-tabs-28.0.0-alpha1.aar/a09e7e8ae2add4cd39a38d25840742c8/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:design-textfield:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/design-textfield-28.0.0-alpha1.aar/b0b4030f382904477e41699ba27689e8/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:design-typography:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/design-typography-28.0.0-alpha1.aar/db9ff6bf5f0c253c36110a64e5a9722a/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:design-shape:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/design-shape-28.0.0-alpha1.aar/cddb91302f1f48ab629a7f5ae46cdb54/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:appcompat-v7:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0-alpha1.aar/a95a9ed6a6beb98c0152a5ab9fa553b8/AndroidManifest.xml:17:1-23:12
+MERGED from [com.android.support:support-fragment:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0-alpha1.aar/4e18b2a424e3ae520ea081380b711cf6/AndroidManifest.xml:17:1-23:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0-alpha1.aar/e7651ebbe2497e4c9d070fc5458854a9/AndroidManifest.xml:17:1-23:12
+MERGED from [com.android.support:design-animation:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/design-animation-28.0.0-alpha1.aar/bb7e44d3b381b847ff617cb261d25c85/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:design-circularreveal-coordinatorlayout:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/design-circularreveal-coordinatorlayout-28.0.0-alpha1.aar/8916fd3b0da934d89ac746cfeff8124b/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:design-expandable:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/design-expandable-28.0.0-alpha1.aar/46a639ad47b455d11b757bf5162dd53d/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:design-stateful:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/design-stateful-28.0.0-alpha1.aar/b7fdf13a1d089601b035da1c038b5baf/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0-alpha1.aar/e10b27deb790f66b09aee69cb3bc6391/AndroidManifest.xml:17:1-23:12
+MERGED from [com.android.support:support-core-ui:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0-alpha1.aar/5519a0428b932b93c27bef9d5b1804b7/AndroidManifest.xml:17:1-23:12
+MERGED from [com.android.support:design-ripple:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/design-ripple-28.0.0-alpha1.aar/56a8b3a55277005519a0ca1e38d0d401/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:support-core-utils:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0-alpha1.aar/edcbbc71ca487555d3032ddaecabf989/AndroidManifest.xml:17:1-23:12
+MERGED from [com.android.support:transition:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/transition-28.0.0-alpha1.aar/c35c9ea316f9691d314632cbcb813886/AndroidManifest.xml:17:1-23:12
+MERGED from [com.android.support:support-media-compat:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0-alpha1.aar/7870a2bf70389698876a42cadfc12f3b/AndroidManifest.xml:17:1-23:12
+MERGED from [com.android.support:viewpager:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0-alpha1.aar/ee2e8e7c88e3f6eaf604f0791da36594/AndroidManifest.xml:17:1-23:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0-alpha1.aar/4b86335c185d853cb9b7c63d102273b0/AndroidManifest.xml:17:1-23:12
+MERGED from [com.android.support:drawerlayout:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0-alpha1.aar/e1bee5afb10c4a4fcec60abb923c7a79/AndroidManifest.xml:17:1-23:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0-alpha1.aar/59581a9d34d2985d128c70736becb6ea/AndroidManifest.xml:17:1-23:12
+MERGED from [com.android.support:customview:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/customview-28.0.0-alpha1.aar/a9ce95a39cbbc06e63d6e3c9152b96f0/AndroidManifest.xml:17:1-23:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0-alpha1.aar/55c3d48fbb38b7a7faef5eb638e35482/AndroidManifest.xml:17:1-23:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0-alpha1.aar/d9480ed91d2f2a7e95f85bddbcdbc07f/AndroidManifest.xml:17:1-23:12
+MERGED from [com.android.support:loader:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/loader-28.0.0-alpha1.aar/5531e9082d5fec7981ab9bc33b46d4ad/AndroidManifest.xml:17:1-23:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0-alpha1.aar/70215669009d64d3a48de86eaeee2ec1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0-alpha1.aar/4e10fa71980d76efa1f416c5d5ce6445/AndroidManifest.xml:17:1-23:12
+MERGED from [com.android.support:design-canvas:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/design-canvas-28.0.0-alpha1.aar/9b955d4afd0681addabe7633f301009c/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:design-circularreveal-cardview:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/design-circularreveal-cardview-28.0.0-alpha1.aar/90f74d46c2b9398889fb6e624bd27db6/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:design-circularreveal:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/design-circularreveal-28.0.0-alpha1.aar/c602d538b62d19eee75b6aaee9ae2e8d/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:design-drawable:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/design-drawable-28.0.0-alpha1.aar/9e174084753e0965ee2cb6e46905fb76/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:interpolator:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0-alpha1.aar/38aa0cc51ceda82ae60d2c09a812a046/AndroidManifest.xml:17:1-23:12
+MERGED from [com.android.support:cursoradapter:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0-alpha1.aar/a771e6ed8d2e9f5ec25104315acaa174/AndroidManifest.xml:17:1-23:12
+MERGED from [com.android.support:documentfile:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0-alpha1.aar/7c6c8b14810afe5dd6536314f32f90d6/AndroidManifest.xml:17:1-23:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0-alpha1.aar/28fc0e4a79c9c2de63b8bf07434de0ba/AndroidManifest.xml:17:1-23:12
+MERGED from [com.android.support:print:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/print-28.0.0-alpha1.aar/005b974d80ee67a50cc579fe7f6213c5/AndroidManifest.xml:17:1-23:12
+MERGED from [com.android.support:cardview-v7:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0-alpha1.aar/8e238f56a57e52337198318f391bc999/AndroidManifest.xml:17:1-23:12
+MERGED from [com.android.support:design-color:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/design-color-28.0.0-alpha1.aar/4d0cb828a9b9df7371e5e90e32ec73ab/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:design-math:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/design-math-28.0.0-alpha1.aar/86bed9737f26fa6f49b69a97daec0f07/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:design-snackbar:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/design-snackbar-28.0.0-alpha1.aar/e5781320a483ad7f80e889060826f57d/AndroidManifest.xml:17:1-24:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /home/morema/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/b0a0eb6ff7c544b5c20880cd631429de/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /home/morema/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/a7ed701226ab16649f232db4e33ffe76/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /home/morema/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/675550a17772027e988675891dcf23ab/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] /home/morema/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/1192f29230ee7ac8cfa6b1562990a87c/AndroidManifest.xml:17:1-22:12
+INJECTED from /home/morema/Projects/NFC_Material/app/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /home/morema/Projects/NFC_Material/app/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /home/morema/Projects/NFC_Material/app/src/main/AndroidManifest.xml:2:1-23:12
+	package
+		ADDED from /home/morema/Projects/NFC_Material/app/src/main/AndroidManifest.xml:3:5-51
+		INJECTED from /home/morema/Projects/NFC_Material/app/src/main/AndroidManifest.xml
+		INJECTED from /home/morema/Projects/NFC_Material/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/morema/Projects/NFC_Material/app/src/main/AndroidManifest.xml
+		ADDED from /home/morema/Projects/NFC_Material/app/src/main/AndroidManifest.xml:2:1-23:12
+		INJECTED from /home/morema/Projects/NFC_Material/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/morema/Projects/NFC_Material/app/src/main/AndroidManifest.xml
+		ADDED from /home/morema/Projects/NFC_Material/app/src/main/AndroidManifest.xml:2:1-23:12
+		INJECTED from /home/morema/Projects/NFC_Material/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/morema/Projects/NFC_Material/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /home/morema/Projects/NFC_Material/app/src/main/AndroidManifest.xml:5:5-67
+	android:name
+		ADDED from /home/morema/Projects/NFC_Material/app/src/main/AndroidManifest.xml:5:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /home/morema/Projects/NFC_Material/app/src/main/AndroidManifest.xml:6:5-79
+	android:name
+		ADDED from /home/morema/Projects/NFC_Material/app/src/main/AndroidManifest.xml:6:22-76
+application
+ADDED from /home/morema/Projects/NFC_Material/app/src/main/AndroidManifest.xml:8:5-22:19
+MERGED from [com.android.support:design:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/design-28.0.0-alpha1.aar/8964b38402bdb49b80401d450f58308d/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/design-28.0.0-alpha1.aar/8964b38402bdb49b80401d450f58308d/AndroidManifest.xml:22:5-20
+MERGED from [com.android.volley:volley:1.1.0] /home/morema/.gradle/caches/transforms-1/files-1.1/volley-1.1.0.aar/7f17e07158c6ce38348e1efdf526f97c/AndroidManifest.xml:9:5-20
+MERGED from [com.android.volley:volley:1.1.0] /home/morema/.gradle/caches/transforms-1/files-1.1/volley-1.1.0.aar/7f17e07158c6ce38348e1efdf526f97c/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:design-bottomappbar:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/design-bottomappbar-28.0.0-alpha1.aar/40fcbae125d7bbc528dce6e612e1b7d3/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design-bottomappbar:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/design-bottomappbar-28.0.0-alpha1.aar/40fcbae125d7bbc528dce6e612e1b7d3/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design-theme:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/design-theme-28.0.0-alpha1.aar/0036e75bb97b64c3f8aed0e118c0219d/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design-theme:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/design-theme-28.0.0-alpha1.aar/0036e75bb97b64c3f8aed0e118c0219d/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design-transformation:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/design-transformation-28.0.0-alpha1.aar/b9daabe866aadd34d38acc419be0dcd4/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design-transformation:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/design-transformation-28.0.0-alpha1.aar/b9daabe866aadd34d38acc419be0dcd4/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design-widget:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/design-widget-28.0.0-alpha1.aar/1517bae30dc0f707eb267843e1ece3c7/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design-widget:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/design-widget-28.0.0-alpha1.aar/1517bae30dc0f707eb267843e1ece3c7/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design-bottomsheet:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/design-bottomsheet-28.0.0-alpha1.aar/a0a4d7dc56d1d78e8ca1b7226ea0735d/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design-bottomsheet:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/design-bottomsheet-28.0.0-alpha1.aar/a0a4d7dc56d1d78e8ca1b7226ea0735d/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design-dialog:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/design-dialog-28.0.0-alpha1.aar/9c9a2dc7f98ddfd30080a86acf773f85/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design-dialog:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/design-dialog-28.0.0-alpha1.aar/9c9a2dc7f98ddfd30080a86acf773f85/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design-button:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/design-button-28.0.0-alpha1.aar/c6bab53ea21820c5bad8bcdbfca4d91d/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design-button:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/design-button-28.0.0-alpha1.aar/c6bab53ea21820c5bad8bcdbfca4d91d/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design-card:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/design-card-28.0.0-alpha1.aar/7341bd094b02c0508eba7051be1e18e0/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design-card:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/design-card-28.0.0-alpha1.aar/7341bd094b02c0508eba7051be1e18e0/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design-chip:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/design-chip-28.0.0-alpha1.aar/f91e52d4ea86897bc5fe39c34103b08b/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design-chip:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/design-chip-28.0.0-alpha1.aar/f91e52d4ea86897bc5fe39c34103b08b/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design-internal:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/design-internal-28.0.0-alpha1.aar/a7a6274a55e31c0316019a74533f6e9b/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design-internal:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/design-internal-28.0.0-alpha1.aar/a7a6274a55e31c0316019a74533f6e9b/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design-bottomnavigation:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/design-bottomnavigation-28.0.0-alpha1.aar/046df2643b9be42d000057ed0b740cd2/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design-bottomnavigation:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/design-bottomnavigation-28.0.0-alpha1.aar/046df2643b9be42d000057ed0b740cd2/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design-floatingactionbutton:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/design-floatingactionbutton-28.0.0-alpha1.aar/655ed451f35c5c17b85b0f1f75d7584d/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design-floatingactionbutton:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/design-floatingactionbutton-28.0.0-alpha1.aar/655ed451f35c5c17b85b0f1f75d7584d/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design-navigation:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/design-navigation-28.0.0-alpha1.aar/233dcbf20ae8684506594e1a4f53ab30/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design-navigation:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/design-navigation-28.0.0-alpha1.aar/233dcbf20ae8684506594e1a4f53ab30/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design-resources:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/design-resources-28.0.0-alpha1.aar/60b370a792fe523a4e7b0f131b0f3675/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design-resources:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/design-resources-28.0.0-alpha1.aar/60b370a792fe523a4e7b0f131b0f3675/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design-tabs:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/design-tabs-28.0.0-alpha1.aar/a09e7e8ae2add4cd39a38d25840742c8/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design-tabs:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/design-tabs-28.0.0-alpha1.aar/a09e7e8ae2add4cd39a38d25840742c8/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design-textfield:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/design-textfield-28.0.0-alpha1.aar/b0b4030f382904477e41699ba27689e8/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design-textfield:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/design-textfield-28.0.0-alpha1.aar/b0b4030f382904477e41699ba27689e8/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design-typography:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/design-typography-28.0.0-alpha1.aar/db9ff6bf5f0c253c36110a64e5a9722a/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design-typography:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/design-typography-28.0.0-alpha1.aar/db9ff6bf5f0c253c36110a64e5a9722a/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design-shape:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/design-shape-28.0.0-alpha1.aar/cddb91302f1f48ab629a7f5ae46cdb54/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design-shape:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/design-shape-28.0.0-alpha1.aar/cddb91302f1f48ab629a7f5ae46cdb54/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design-animation:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/design-animation-28.0.0-alpha1.aar/bb7e44d3b381b847ff617cb261d25c85/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design-animation:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/design-animation-28.0.0-alpha1.aar/bb7e44d3b381b847ff617cb261d25c85/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design-circularreveal-coordinatorlayout:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/design-circularreveal-coordinatorlayout-28.0.0-alpha1.aar/8916fd3b0da934d89ac746cfeff8124b/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design-circularreveal-coordinatorlayout:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/design-circularreveal-coordinatorlayout-28.0.0-alpha1.aar/8916fd3b0da934d89ac746cfeff8124b/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design-expandable:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/design-expandable-28.0.0-alpha1.aar/46a639ad47b455d11b757bf5162dd53d/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design-expandable:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/design-expandable-28.0.0-alpha1.aar/46a639ad47b455d11b757bf5162dd53d/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design-stateful:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/design-stateful-28.0.0-alpha1.aar/b7fdf13a1d089601b035da1c038b5baf/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design-stateful:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/design-stateful-28.0.0-alpha1.aar/b7fdf13a1d089601b035da1c038b5baf/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design-ripple:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/design-ripple-28.0.0-alpha1.aar/56a8b3a55277005519a0ca1e38d0d401/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design-ripple:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/design-ripple-28.0.0-alpha1.aar/56a8b3a55277005519a0ca1e38d0d401/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design-canvas:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/design-canvas-28.0.0-alpha1.aar/9b955d4afd0681addabe7633f301009c/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design-canvas:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/design-canvas-28.0.0-alpha1.aar/9b955d4afd0681addabe7633f301009c/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design-circularreveal-cardview:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/design-circularreveal-cardview-28.0.0-alpha1.aar/90f74d46c2b9398889fb6e624bd27db6/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design-circularreveal-cardview:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/design-circularreveal-cardview-28.0.0-alpha1.aar/90f74d46c2b9398889fb6e624bd27db6/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design-circularreveal:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/design-circularreveal-28.0.0-alpha1.aar/c602d538b62d19eee75b6aaee9ae2e8d/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design-circularreveal:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/design-circularreveal-28.0.0-alpha1.aar/c602d538b62d19eee75b6aaee9ae2e8d/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design-drawable:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/design-drawable-28.0.0-alpha1.aar/9e174084753e0965ee2cb6e46905fb76/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design-drawable:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/design-drawable-28.0.0-alpha1.aar/9e174084753e0965ee2cb6e46905fb76/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design-color:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/design-color-28.0.0-alpha1.aar/4d0cb828a9b9df7371e5e90e32ec73ab/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design-color:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/design-color-28.0.0-alpha1.aar/4d0cb828a9b9df7371e5e90e32ec73ab/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design-math:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/design-math-28.0.0-alpha1.aar/86bed9737f26fa6f49b69a97daec0f07/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design-math:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/design-math-28.0.0-alpha1.aar/86bed9737f26fa6f49b69a97daec0f07/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design-snackbar:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/design-snackbar-28.0.0-alpha1.aar/e5781320a483ad7f80e889060826f57d/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design-snackbar:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/design-snackbar-28.0.0-alpha1.aar/e5781320a483ad7f80e889060826f57d/AndroidManifest.xml:22:5-20
+	android:supportsRtl
+		ADDED from /home/morema/Projects/NFC_Material/app/src/main/AndroidManifest.xml:13:9-35
+	android:label
+		ADDED from /home/morema/Projects/NFC_Material/app/src/main/AndroidManifest.xml:11:9-45
+	android:roundIcon
+		ADDED from /home/morema/Projects/NFC_Material/app/src/main/AndroidManifest.xml:12:9-54
+	android:icon
+		ADDED from /home/morema/Projects/NFC_Material/app/src/main/AndroidManifest.xml:10:9-43
+	android:allowBackup
+		ADDED from /home/morema/Projects/NFC_Material/app/src/main/AndroidManifest.xml:9:9-35
+	android:theme
+		ADDED from /home/morema/Projects/NFC_Material/app/src/main/AndroidManifest.xml:14:9-44
+activity#com.example.morema.java.nfc_material.MainActivity
+ADDED from /home/morema/Projects/NFC_Material/app/src/main/AndroidManifest.xml:15:9-21:20
+	android:name
+		ADDED from /home/morema/Projects/NFC_Material/app/src/main/AndroidManifest.xml:15:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/morema/Projects/NFC_Material/app/src/main/AndroidManifest.xml:16:13-20:29
+action#android.intent.action.MAIN
+ADDED from /home/morema/Projects/NFC_Material/app/src/main/AndroidManifest.xml:17:17-69
+	android:name
+		ADDED from /home/morema/Projects/NFC_Material/app/src/main/AndroidManifest.xml:17:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/morema/Projects/NFC_Material/app/src/main/AndroidManifest.xml:19:17-77
+	android:name
+		ADDED from /home/morema/Projects/NFC_Material/app/src/main/AndroidManifest.xml:19:27-74
+uses-sdk
+INJECTED from /home/morema/Projects/NFC_Material/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/morema/Projects/NFC_Material/app/src/main/AndroidManifest.xml
+INJECTED from /home/morema/Projects/NFC_Material/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:design:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/design-28.0.0-alpha1.aar/8964b38402bdb49b80401d450f58308d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/design-28.0.0-alpha1.aar/8964b38402bdb49b80401d450f58308d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/support-v4-28.0.0-alpha1.aar/e8600253ccc41c8a0b51c37646b9ebde/AndroidManifest.xml:21:5-44
+MERGED from [com.android.support:support-v4:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/support-v4-28.0.0-alpha1.aar/e8600253ccc41c8a0b51c37646b9ebde/AndroidManifest.xml:21:5-44
+MERGED from [com.android.volley:volley:1.1.0] /home/morema/.gradle/caches/transforms-1/files-1.1/volley-1.1.0.aar/7f17e07158c6ce38348e1efdf526f97c/AndroidManifest.xml:7:5-43
+MERGED from [com.android.volley:volley:1.1.0] /home/morema/.gradle/caches/transforms-1/files-1.1/volley-1.1.0.aar/7f17e07158c6ce38348e1efdf526f97c/AndroidManifest.xml:7:5-43
+MERGED from [com.android.support:design-bottomappbar:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/design-bottomappbar-28.0.0-alpha1.aar/40fcbae125d7bbc528dce6e612e1b7d3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design-bottomappbar:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/design-bottomappbar-28.0.0-alpha1.aar/40fcbae125d7bbc528dce6e612e1b7d3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design-theme:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/design-theme-28.0.0-alpha1.aar/0036e75bb97b64c3f8aed0e118c0219d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design-theme:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/design-theme-28.0.0-alpha1.aar/0036e75bb97b64c3f8aed0e118c0219d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design-transformation:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/design-transformation-28.0.0-alpha1.aar/b9daabe866aadd34d38acc419be0dcd4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design-transformation:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/design-transformation-28.0.0-alpha1.aar/b9daabe866aadd34d38acc419be0dcd4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design-widget:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/design-widget-28.0.0-alpha1.aar/1517bae30dc0f707eb267843e1ece3c7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design-widget:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/design-widget-28.0.0-alpha1.aar/1517bae30dc0f707eb267843e1ece3c7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design-bottomsheet:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/design-bottomsheet-28.0.0-alpha1.aar/a0a4d7dc56d1d78e8ca1b7226ea0735d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design-bottomsheet:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/design-bottomsheet-28.0.0-alpha1.aar/a0a4d7dc56d1d78e8ca1b7226ea0735d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design-dialog:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/design-dialog-28.0.0-alpha1.aar/9c9a2dc7f98ddfd30080a86acf773f85/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design-dialog:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/design-dialog-28.0.0-alpha1.aar/9c9a2dc7f98ddfd30080a86acf773f85/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design-button:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/design-button-28.0.0-alpha1.aar/c6bab53ea21820c5bad8bcdbfca4d91d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design-button:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/design-button-28.0.0-alpha1.aar/c6bab53ea21820c5bad8bcdbfca4d91d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design-card:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/design-card-28.0.0-alpha1.aar/7341bd094b02c0508eba7051be1e18e0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design-card:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/design-card-28.0.0-alpha1.aar/7341bd094b02c0508eba7051be1e18e0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design-chip:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/design-chip-28.0.0-alpha1.aar/f91e52d4ea86897bc5fe39c34103b08b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design-chip:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/design-chip-28.0.0-alpha1.aar/f91e52d4ea86897bc5fe39c34103b08b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design-internal:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/design-internal-28.0.0-alpha1.aar/a7a6274a55e31c0316019a74533f6e9b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design-internal:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/design-internal-28.0.0-alpha1.aar/a7a6274a55e31c0316019a74533f6e9b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design-bottomnavigation:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/design-bottomnavigation-28.0.0-alpha1.aar/046df2643b9be42d000057ed0b740cd2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design-bottomnavigation:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/design-bottomnavigation-28.0.0-alpha1.aar/046df2643b9be42d000057ed0b740cd2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design-floatingactionbutton:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/design-floatingactionbutton-28.0.0-alpha1.aar/655ed451f35c5c17b85b0f1f75d7584d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design-floatingactionbutton:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/design-floatingactionbutton-28.0.0-alpha1.aar/655ed451f35c5c17b85b0f1f75d7584d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design-navigation:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/design-navigation-28.0.0-alpha1.aar/233dcbf20ae8684506594e1a4f53ab30/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design-navigation:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/design-navigation-28.0.0-alpha1.aar/233dcbf20ae8684506594e1a4f53ab30/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design-resources:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/design-resources-28.0.0-alpha1.aar/60b370a792fe523a4e7b0f131b0f3675/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design-resources:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/design-resources-28.0.0-alpha1.aar/60b370a792fe523a4e7b0f131b0f3675/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design-tabs:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/design-tabs-28.0.0-alpha1.aar/a09e7e8ae2add4cd39a38d25840742c8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design-tabs:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/design-tabs-28.0.0-alpha1.aar/a09e7e8ae2add4cd39a38d25840742c8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design-textfield:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/design-textfield-28.0.0-alpha1.aar/b0b4030f382904477e41699ba27689e8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design-textfield:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/design-textfield-28.0.0-alpha1.aar/b0b4030f382904477e41699ba27689e8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design-typography:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/design-typography-28.0.0-alpha1.aar/db9ff6bf5f0c253c36110a64e5a9722a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design-typography:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/design-typography-28.0.0-alpha1.aar/db9ff6bf5f0c253c36110a64e5a9722a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design-shape:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/design-shape-28.0.0-alpha1.aar/cddb91302f1f48ab629a7f5ae46cdb54/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design-shape:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/design-shape-28.0.0-alpha1.aar/cddb91302f1f48ab629a7f5ae46cdb54/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0-alpha1.aar/a95a9ed6a6beb98c0152a5ab9fa553b8/AndroidManifest.xml:21:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0-alpha1.aar/a95a9ed6a6beb98c0152a5ab9fa553b8/AndroidManifest.xml:21:5-44
+MERGED from [com.android.support:support-fragment:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0-alpha1.aar/4e18b2a424e3ae520ea081380b711cf6/AndroidManifest.xml:21:5-44
+MERGED from [com.android.support:support-fragment:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0-alpha1.aar/4e18b2a424e3ae520ea081380b711cf6/AndroidManifest.xml:21:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0-alpha1.aar/e7651ebbe2497e4c9d070fc5458854a9/AndroidManifest.xml:21:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0-alpha1.aar/e7651ebbe2497e4c9d070fc5458854a9/AndroidManifest.xml:21:5-44
+MERGED from [com.android.support:design-animation:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/design-animation-28.0.0-alpha1.aar/bb7e44d3b381b847ff617cb261d25c85/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design-animation:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/design-animation-28.0.0-alpha1.aar/bb7e44d3b381b847ff617cb261d25c85/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design-circularreveal-coordinatorlayout:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/design-circularreveal-coordinatorlayout-28.0.0-alpha1.aar/8916fd3b0da934d89ac746cfeff8124b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design-circularreveal-coordinatorlayout:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/design-circularreveal-coordinatorlayout-28.0.0-alpha1.aar/8916fd3b0da934d89ac746cfeff8124b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design-expandable:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/design-expandable-28.0.0-alpha1.aar/46a639ad47b455d11b757bf5162dd53d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design-expandable:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/design-expandable-28.0.0-alpha1.aar/46a639ad47b455d11b757bf5162dd53d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design-stateful:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/design-stateful-28.0.0-alpha1.aar/b7fdf13a1d089601b035da1c038b5baf/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design-stateful:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/design-stateful-28.0.0-alpha1.aar/b7fdf13a1d089601b035da1c038b5baf/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0-alpha1.aar/e10b27deb790f66b09aee69cb3bc6391/AndroidManifest.xml:21:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0-alpha1.aar/e10b27deb790f66b09aee69cb3bc6391/AndroidManifest.xml:21:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0-alpha1.aar/5519a0428b932b93c27bef9d5b1804b7/AndroidManifest.xml:21:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0-alpha1.aar/5519a0428b932b93c27bef9d5b1804b7/AndroidManifest.xml:21:5-44
+MERGED from [com.android.support:design-ripple:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/design-ripple-28.0.0-alpha1.aar/56a8b3a55277005519a0ca1e38d0d401/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design-ripple:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/design-ripple-28.0.0-alpha1.aar/56a8b3a55277005519a0ca1e38d0d401/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0-alpha1.aar/edcbbc71ca487555d3032ddaecabf989/AndroidManifest.xml:21:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0-alpha1.aar/edcbbc71ca487555d3032ddaecabf989/AndroidManifest.xml:21:5-44
+MERGED from [com.android.support:transition:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/transition-28.0.0-alpha1.aar/c35c9ea316f9691d314632cbcb813886/AndroidManifest.xml:21:5-44
+MERGED from [com.android.support:transition:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/transition-28.0.0-alpha1.aar/c35c9ea316f9691d314632cbcb813886/AndroidManifest.xml:21:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0-alpha1.aar/7870a2bf70389698876a42cadfc12f3b/AndroidManifest.xml:21:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0-alpha1.aar/7870a2bf70389698876a42cadfc12f3b/AndroidManifest.xml:21:5-44
+MERGED from [com.android.support:viewpager:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0-alpha1.aar/ee2e8e7c88e3f6eaf604f0791da36594/AndroidManifest.xml:21:5-44
+MERGED from [com.android.support:viewpager:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0-alpha1.aar/ee2e8e7c88e3f6eaf604f0791da36594/AndroidManifest.xml:21:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0-alpha1.aar/4b86335c185d853cb9b7c63d102273b0/AndroidManifest.xml:21:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0-alpha1.aar/4b86335c185d853cb9b7c63d102273b0/AndroidManifest.xml:21:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0-alpha1.aar/e1bee5afb10c4a4fcec60abb923c7a79/AndroidManifest.xml:21:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0-alpha1.aar/e1bee5afb10c4a4fcec60abb923c7a79/AndroidManifest.xml:21:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0-alpha1.aar/59581a9d34d2985d128c70736becb6ea/AndroidManifest.xml:21:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0-alpha1.aar/59581a9d34d2985d128c70736becb6ea/AndroidManifest.xml:21:5-44
+MERGED from [com.android.support:customview:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/customview-28.0.0-alpha1.aar/a9ce95a39cbbc06e63d6e3c9152b96f0/AndroidManifest.xml:21:5-44
+MERGED from [com.android.support:customview:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/customview-28.0.0-alpha1.aar/a9ce95a39cbbc06e63d6e3c9152b96f0/AndroidManifest.xml:21:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0-alpha1.aar/55c3d48fbb38b7a7faef5eb638e35482/AndroidManifest.xml:21:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0-alpha1.aar/55c3d48fbb38b7a7faef5eb638e35482/AndroidManifest.xml:21:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0-alpha1.aar/d9480ed91d2f2a7e95f85bddbcdbc07f/AndroidManifest.xml:21:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0-alpha1.aar/d9480ed91d2f2a7e95f85bddbcdbc07f/AndroidManifest.xml:21:5-44
+MERGED from [com.android.support:loader:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/loader-28.0.0-alpha1.aar/5531e9082d5fec7981ab9bc33b46d4ad/AndroidManifest.xml:21:5-44
+MERGED from [com.android.support:loader:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/loader-28.0.0-alpha1.aar/5531e9082d5fec7981ab9bc33b46d4ad/AndroidManifest.xml:21:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0-alpha1.aar/70215669009d64d3a48de86eaeee2ec1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0-alpha1.aar/70215669009d64d3a48de86eaeee2ec1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0-alpha1.aar/4e10fa71980d76efa1f416c5d5ce6445/AndroidManifest.xml:21:5-44
+MERGED from [com.android.support:support-compat:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0-alpha1.aar/4e10fa71980d76efa1f416c5d5ce6445/AndroidManifest.xml:21:5-44
+MERGED from [com.android.support:design-canvas:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/design-canvas-28.0.0-alpha1.aar/9b955d4afd0681addabe7633f301009c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design-canvas:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/design-canvas-28.0.0-alpha1.aar/9b955d4afd0681addabe7633f301009c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design-circularreveal-cardview:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/design-circularreveal-cardview-28.0.0-alpha1.aar/90f74d46c2b9398889fb6e624bd27db6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design-circularreveal-cardview:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/design-circularreveal-cardview-28.0.0-alpha1.aar/90f74d46c2b9398889fb6e624bd27db6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design-circularreveal:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/design-circularreveal-28.0.0-alpha1.aar/c602d538b62d19eee75b6aaee9ae2e8d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design-circularreveal:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/design-circularreveal-28.0.0-alpha1.aar/c602d538b62d19eee75b6aaee9ae2e8d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design-drawable:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/design-drawable-28.0.0-alpha1.aar/9e174084753e0965ee2cb6e46905fb76/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design-drawable:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/design-drawable-28.0.0-alpha1.aar/9e174084753e0965ee2cb6e46905fb76/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0-alpha1.aar/38aa0cc51ceda82ae60d2c09a812a046/AndroidManifest.xml:21:5-44
+MERGED from [com.android.support:interpolator:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0-alpha1.aar/38aa0cc51ceda82ae60d2c09a812a046/AndroidManifest.xml:21:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0-alpha1.aar/a771e6ed8d2e9f5ec25104315acaa174/AndroidManifest.xml:21:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0-alpha1.aar/a771e6ed8d2e9f5ec25104315acaa174/AndroidManifest.xml:21:5-44
+MERGED from [com.android.support:documentfile:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0-alpha1.aar/7c6c8b14810afe5dd6536314f32f90d6/AndroidManifest.xml:21:5-44
+MERGED from [com.android.support:documentfile:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0-alpha1.aar/7c6c8b14810afe5dd6536314f32f90d6/AndroidManifest.xml:21:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0-alpha1.aar/28fc0e4a79c9c2de63b8bf07434de0ba/AndroidManifest.xml:21:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0-alpha1.aar/28fc0e4a79c9c2de63b8bf07434de0ba/AndroidManifest.xml:21:5-44
+MERGED from [com.android.support:print:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/print-28.0.0-alpha1.aar/005b974d80ee67a50cc579fe7f6213c5/AndroidManifest.xml:21:5-44
+MERGED from [com.android.support:print:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/print-28.0.0-alpha1.aar/005b974d80ee67a50cc579fe7f6213c5/AndroidManifest.xml:21:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0-alpha1.aar/8e238f56a57e52337198318f391bc999/AndroidManifest.xml:21:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0-alpha1.aar/8e238f56a57e52337198318f391bc999/AndroidManifest.xml:21:5-44
+MERGED from [com.android.support:design-color:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/design-color-28.0.0-alpha1.aar/4d0cb828a9b9df7371e5e90e32ec73ab/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design-color:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/design-color-28.0.0-alpha1.aar/4d0cb828a9b9df7371e5e90e32ec73ab/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design-math:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/design-math-28.0.0-alpha1.aar/86bed9737f26fa6f49b69a97daec0f07/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design-math:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/design-math-28.0.0-alpha1.aar/86bed9737f26fa6f49b69a97daec0f07/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design-snackbar:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/design-snackbar-28.0.0-alpha1.aar/e5781320a483ad7f80e889060826f57d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design-snackbar:28.0.0-alpha1] /home/morema/.gradle/caches/transforms-1/files-1.1/design-snackbar-28.0.0-alpha1.aar/e5781320a483ad7f80e889060826f57d/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /home/morema/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/b0a0eb6ff7c544b5c20880cd631429de/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /home/morema/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/b0a0eb6ff7c544b5c20880cd631429de/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /home/morema/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/a7ed701226ab16649f232db4e33ffe76/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /home/morema/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/a7ed701226ab16649f232db4e33ffe76/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /home/morema/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/675550a17772027e988675891dcf23ab/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /home/morema/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/675550a17772027e988675891dcf23ab/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /home/morema/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/1192f29230ee7ac8cfa6b1562990a87c/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /home/morema/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/1192f29230ee7ac8cfa6b1562990a87c/AndroidManifest.xml:20:5-44
+INJECTED from /home/morema/Projects/NFC_Material/app/src/main/AndroidManifest.xml
+INJECTED from /home/morema/Projects/NFC_Material/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/morema/Projects/NFC_Material/app/src/main/AndroidManifest.xml
+		ADDED from /home/morema/Projects/NFC_Material/app/src/main/AndroidManifest.xml
+		INJECTED from /home/morema/Projects/NFC_Material/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/morema/Projects/NFC_Material/app/src/main/AndroidManifest.xml
+		ADDED from /home/morema/Projects/NFC_Material/app/src/main/AndroidManifest.xml
+		INJECTED from /home/morema/Projects/NFC_Material/app/src/main/AndroidManifest.xml

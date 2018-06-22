@@ -1,5 +1,19 @@
 <resources>
-    <string name="app_name">payments</string>
-    <string name="password">Password</string>
-    <string name="todo">TODO</string>
+    <string name="shr_app_name">NFC Material</string>
+    <string name="shr_hint_username">Username</string>
+    <string name="shr_hint_password">Password</string>
+    <string name="shr_button_next">Next</string>
+    <string name="shr_button_cancel">Cancel</string>
+    <string name="shr_error_password">Password must contain at least 8 characters.</string>
+    <string name="shr_filter_title">Filter</string>
+    <string name="shr_search_title">Search</string>
+    <string name="shr_product_title">Title</string>
+    <string name="home">Home</string>
+    <string name="send">Send</string>
+    <string name="receive">Receive</string>
+    <string name="enter">Enter</string>
+    <string name="shr_product_description">Secondary text</string>
+
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
